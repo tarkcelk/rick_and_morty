@@ -14,6 +14,14 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-rick_and_morty-rick_and_mortyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-rick_and_morty-rick_and_mortyTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		BCBDB37A2C3496F3005A807F /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCBDB36C2C348583005A807F /* FontAwesome.ttf */; };
+		BCBDB37B2C3496F3005A807F /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCBDB3722C348584005A807F /* FontAwesome5_Brands.ttf */; };
+		BCBDB37C2C3496F3005A807F /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCBDB3712C348584005A807F /* FontAwesome5_Regular.ttf */; };
+		BCBDB37D2C3496F3005A807F /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCBDB3702C348583005A807F /* FontAwesome5_Solid.ttf */; };
+		BCBDB37E2C3496F3005A807F /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCBDB36F2C348583005A807F /* FontAwesome6_Brands.ttf */; };
+		BCBDB37F2C3496F3005A807F /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCBDB36D2C348583005A807F /* FontAwesome6_Regular.ttf */; };
+		BCBDB3802C3496F3005A807F /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCBDB36E2C348583005A807F /* FontAwesome6_Solid.ttf */; };
+		BD4DA9C67BAA2D47A6EB0921 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0DC0BBB04AFB2AF634C98467 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +38,14 @@
 		00E356EE1AD99517003FC87E /* rick_and_mortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rick_and_mortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* rick_and_mortyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rick_and_mortyTests.m; sourceTree = "<group>"; };
+		0DC0BBB04AFB2AF634C98467 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = rick_and_morty/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* rick_and_morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rick_and_morty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rick_and_morty/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = rick_and_morty/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rick_and_morty/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rick_and_morty/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rick_and_morty/main.m; sourceTree = "<group>"; };
-	    13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = rick_and_morty/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = rick_and_morty/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-rick_and_morty-rick_and_mortyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rick_and_morty-rick_and_mortyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-rick_and_morty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rick_and_morty.debug.xcconfig"; path = "Target Support Files/Pods-rick_and_morty/Pods-rick_and_morty.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-rick_and_morty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rick_and_morty.release.xcconfig"; path = "Target Support Files/Pods-rick_and_morty/Pods-rick_and_morty.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,6 +53,13 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-rick_and_morty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rick_and_morty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rick_and_morty/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-rick_and_morty-rick_and_mortyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rick_and_morty-rick_and_mortyTests.release.xcconfig"; path = "Target Support Files/Pods-rick_and_morty-rick_and_mortyTests/Pods-rick_and_morty-rick_and_mortyTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCBDB36C2C348583005A807F /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = ../../../../.Trash/FontAwesome.ttf; sourceTree = "<group>"; };
+		BCBDB36D2C348583005A807F /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Regular.ttf; path = ../../../../.Trash/FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		BCBDB36E2C348583005A807F /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Solid.ttf; path = ../../../../.Trash/FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		BCBDB36F2C348583005A807F /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Brands.ttf; path = ../../../../.Trash/FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		BCBDB3702C348583005A807F /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = ../../../../.Trash/FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		BCBDB3712C348584005A807F /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = ../../../../.Trash/FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		BCBDB3722C348584005A807F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = ../../../../.Trash/FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -87,6 +103,7 @@
 		13B07FAE1A68108700A75B9A /* rick_and_morty */ = {
 			isa = PBXGroup;
 			children = (
+				BCBDB3642C3484F9005A807F /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -94,6 +111,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				0DC0BBB04AFB2AF634C98467 /* PrivacyInfo.xcprivacy */,
 			);
 			name = rick_and_morty;
 			sourceTree = "<group>";
@@ -148,6 +166,20 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-rick_and_morty-rick_and_mortyTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCBDB3642C3484F9005A807F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BCBDB36C2C348583005A807F /* FontAwesome.ttf */,
+				BCBDB3722C348584005A807F /* FontAwesome5_Brands.ttf */,
+				BCBDB3712C348584005A807F /* FontAwesome5_Regular.ttf */,
+				BCBDB3702C348583005A807F /* FontAwesome5_Solid.ttf */,
+				BCBDB36F2C348583005A807F /* FontAwesome6_Brands.ttf */,
+				BCBDB36D2C348583005A807F /* FontAwesome6_Regular.ttf */,
+				BCBDB36E2C348583005A807F /* FontAwesome6_Solid.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +275,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBDB37A2C3496F3005A807F /* FontAwesome.ttf in Resources */,
+				BCBDB37B2C3496F3005A807F /* FontAwesome5_Brands.ttf in Resources */,
+				BCBDB37C2C3496F3005A807F /* FontAwesome5_Regular.ttf in Resources */,
+				BCBDB37D2C3496F3005A807F /* FontAwesome5_Solid.ttf in Resources */,
+				BCBDB37E2C3496F3005A807F /* FontAwesome6_Brands.ttf in Resources */,
+				BCBDB37F2C3496F3005A807F /* FontAwesome6_Regular.ttf in Resources */,
+				BCBDB3802C3496F3005A807F /* FontAwesome6_Solid.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				BD4DA9C67BAA2D47A6EB0921 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +557,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -544,6 +585,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -563,6 +605,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -582,7 +626,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -590,6 +641,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -617,6 +669,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -629,6 +682,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -647,7 +702,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
